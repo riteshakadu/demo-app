@@ -1,6 +1,6 @@
 pipeline {
   agent { 
-    lable = "Node-Ritesh"
+    lable "Node-Ritesh"
   }
   stages {
       stage ("checkout code") {
