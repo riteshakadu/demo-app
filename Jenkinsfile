@@ -1,5 +1,7 @@
 pipeline {
-  agent any;
+  agent { 
+    lable = "Node-Ritesh"
+  }
   stages {
       stage ("checkout code") {
         steps {
